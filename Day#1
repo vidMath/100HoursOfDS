@@ -1,0 +1,9 @@
+Download data from StackOverflow https://archive.org/details/stackexchange
+
+Somedetour towards installation 7zip and extacting data files 
+sudo apt-get install p7zip-full
+7z x 'package.7z'
+
+mysql> Create table 
+
+mysql> LOAD XML LOCAL INFILE 'person.xml'INTO TABLE person ROWS IDENTIFIED BY '<person>'
